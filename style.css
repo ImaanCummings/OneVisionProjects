@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 
-<<<<<<< HEAD
 html {
   overflow-x: hidden;
 }
@@ -13,10 +12,8 @@ body {
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
-=======
 body {
   margin: 0;
->>>>>>> 30768596550653a46afad133786185d4252436de
   background:
     radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.05) 1px, transparent 0) 0 0 / 24px 24px,
     linear-gradient(90deg, #050505 0%, #050505 60%, #140b03 100%);
@@ -24,7 +21,6 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-<<<<<<< HEAD
 img,
 svg {
   display: block;
@@ -40,8 +36,6 @@ a {
   flex: 1 0 auto;
 }
 
-=======
->>>>>>> 30768596550653a46afad133786185d4252436de
 .navbar {
   background-color: #050505;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
@@ -54,7 +48,6 @@ a {
   overflow-x: hidden;
 }
 
-<<<<<<< HEAD
 @media (max-width: 991.98px) {
   .navbar-collapse {
     align-items: flex-start;
@@ -76,12 +69,10 @@ a {
 @media (max-width: 575.98px) {
   .navbar .container-fluid {
     padding: 10px 12px;
-=======
 @media (max-width: 575.98px) {
   .navbar .container-fluid {
     padding-top: 10px;
     padding-bottom: 10px;
->>>>>>> 30768596550653a46afad133786185d4252436de
   }
 
   .brand-title {
@@ -98,14 +89,11 @@ a {
   }
 
   .whatsapp-button {
-<<<<<<< HEAD
     width: 100%;
     padding: 0 12px;
     min-height: 44px;
-=======
     padding: 0 12px;
     min-height: 40px;
->>>>>>> 30768596550653a46afad133786185d4252436de
     font-size: 0.8rem;
   }
 }
@@ -190,7 +178,6 @@ a {
   margin: 40px auto 56px;
 }
 
-<<<<<<< HEAD
 .about-section {
   width: min(1440px, calc(100% - 24px));
   margin: 0 auto 56px;
@@ -216,8 +203,6 @@ a {
   margin: 0 auto;
 }
 
-=======
->>>>>>> 30768596550653a46afad133786185d4252436de
 .hero-copy {
   min-width: 0;
   padding-top: 18px;
@@ -365,8 +350,6 @@ a {
 }
 
 @media (max-width: 991.98px) {
-<<<<<<< HEAD
-=======
   .navbar-collapse {
     align-items: flex-start;
     padding-top: 1rem;
@@ -376,7 +359,6 @@ a {
     gap: 0.5rem;
   }
 
->>>>>>> 30768596550653a46afad133786185d4252436de
   .hero {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -386,10 +368,7 @@ a {
 
   .hero-copy {
     padding-top: 0;
-<<<<<<< HEAD
     width: 100%;
-=======
->>>>>>> 30768596550653a46afad133786185d4252436de
   }
 
   .hero-title {
@@ -463,27 +442,21 @@ a {
 }
 
 @media (max-width: 575.98px) {
-<<<<<<< HEAD
   .hero,
   .about-section,
   .about-hero {
     width: calc(100% - 16px);
     margin: 18px auto 36px;
-=======
   .hero {
     width: calc(100% - 16px);
     margin: 18px auto 40px;
->>>>>>> 30768596550653a46afad133786185d4252436de
     padding: 0 8px;
   }
 
   .about-hero {
-<<<<<<< HEAD
-=======
     width: calc(100% - 16px);
     margin: 18px auto 40px;
     padding: 0 8px;
->>>>>>> 30768596550653a46afad133786185d4252436de
     grid-template-columns: 1fr;
     max-width: 100%;
     overflow-x: hidden;
@@ -500,10 +473,7 @@ a {
   .status-bar {
     width: 100%;
     padding: 8px 10px;
-<<<<<<< HEAD
     flex-wrap: wrap;
-=======
->>>>>>> 30768596550653a46afad133786185d4252436de
   }
 
   .status-text {
@@ -1232,33 +1202,27 @@ body{
 @media (max-width: 900px) {
   .service-banner {
     grid-template-columns: 1fr;
-<<<<<<< HEAD
     gap: 24px;
     padding: 32px 24px;
   }
 
-=======
     gap: 28px;
     padding: 36px 28px;
   }
->>>>>>> 30768596550653a46afad133786185d4252436de
   .banner-mid {
     border-left: none;
     border-right: none;
     border-top: 1px solid var(--border);
     border-bottom: 1px solid var(--border);
-<<<<<<< HEAD
     padding: 20px 0;
   }
 
   .banner-right {
     padding-left: 0;
   }
-=======
     padding: 28px 0;
   }
   .banner-right { padding-left: 0; }
->>>>>>> 30768596550653a46afad133786185d4252436de
 }
 
 @media (max-width: 768px) {
@@ -1349,7 +1313,6 @@ body{
   .footer-copy {
     max-width: 100%;
   }
-<<<<<<< HEAD
 
   .service-banner {
     grid-template-columns: 1fr;
@@ -1648,7 +1611,6 @@ textarea {
   color: #888;
   text-align: center;
   margin-top: 1rem;
-=======
   
   .service-banner {
     grid-template-columns: 1fr;
@@ -1663,5 +1625,4 @@ textarea {
   .banner-desc {
     font-size: 14px;
   }
->>>>>>> 30768596550653a46afad133786185d4252436de
 }
